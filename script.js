@@ -45,6 +45,7 @@ let state = {
 state.button.addEventListener("click",function(){
     state.randomQuote();
     state.clicks++;
+    console.log("Hs pulsado: ", state.clicks);
 });
 
 state.randomQuote();
