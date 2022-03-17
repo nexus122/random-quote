@@ -1,8 +1,31 @@
 /* Mis estilos */
 body {
   background: #b09e99;
+  width: 100vw;
+  height: 100vh;
 }
 
 .author {
   color: #64b6ac;
+}
+
+.quote{
+  background-color: #ffffff80;
+  min-height: 25%;
+}
+
+.quote-button button{
+  background-color: #64b6ac;
+  color:white;
+  outline: none;
+  border: none;
+  box-shadow: none!important;
+}
+.quote-button button:hover{
+  background-color: #b09e99;
+  color:white;
+}
+
+i.icon {
+  font-size: 4em;
 }
