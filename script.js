@@ -30,8 +30,8 @@ let state = {
         },
         {
             quote:
-                "A critic is someone who never actually goes to the battle, yet who afterwards comes out shooting the wounded.",
-            author: " Tyne Daly"
+                "El amor mas verdadero es el amor a la comida.",
+            author: "George Bernard Shaw"
         }
     ],
     randomQuote(){
