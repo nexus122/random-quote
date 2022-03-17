@@ -2,6 +2,7 @@ let state = {
     button: document.querySelector(".btn"),
     quote: document.querySelector("#cita"),
     author: document.querySelector("#autor"),
+    clicks: 0,    
     quotes:[
         {
             quote:
@@ -43,6 +44,7 @@ let state = {
 
 state.button.addEventListener("click",function(){
     state.randomQuote();
-})
+    state.clicks++;
+});
 
 state.randomQuote();
